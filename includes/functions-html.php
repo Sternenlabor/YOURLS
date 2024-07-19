@@ -126,6 +126,8 @@ function yourls_html_head( $context = 'index', $title = '' ) {
 	//]]>
 	</script>
 	<?php yourls_do_action( 'html_head', $context ); ?>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 </head>
 <body class="<?php echo $context; ?> <?php echo $bodyclass; ?>">
 <div id="wrap">
